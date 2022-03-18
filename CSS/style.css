@@ -7,6 +7,12 @@
     font-family: 'Roboto', sans-serif;
    }
 
+   body{
+       position: relative;
+       padding-bottom: 200px;
+       min-height: 100vh;
+   }
+
 /* BARRA SUPERIOR ROJA */
 .barra-superior {
     display: flex;
@@ -175,6 +181,7 @@ header nav .enlaces a.active{
     background-image: url(../IMG/Hero-Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     background-position: 0px -440px;
 }
 
@@ -188,7 +195,7 @@ header nav .enlaces a.active{
     margin-bottom: 140px;
     height: 200px;
     color: white;
-    font-size: large;
+    font-size:large;
 }
 
 .reservar-anular{
@@ -303,15 +310,7 @@ header nav .enlaces a.active{
     margin-top: 40px;
     height: 200px;
     color: rgb(37, 37, 37);
-    font-size: medium;
-}
-
-.calidad{
-    padding: 0px 20px 0px 0px;
-}
-
-.servicio{
-    padding: 0px 20px 0px 0px;
+    font-size: small;
 }
 
 .footer{
@@ -325,10 +324,119 @@ header nav .enlaces a.active{
     background-color: rgb(37, 37, 37);
     color: rgb(133, 133, 133);
     font-size: small;
+    position: absolute;
+    bottom: 0;
 }
 
 
+/* CORRECION BOOTSTRAP */
 
+.col-1 {
+    flex: 0 0 auto;
+    width: 100%;
+}
 
+.col-2 {
+    flex: 0 0 auto;
+    width: 100%;
+}
 
-  
+.col-3 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+h1{
+    font-weight: 600;
+    font-size: xx-large;
+    line-height: 1.2;
+    margin-bottom: 0rem;
+}
+
+h2{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+h3{
+    margin-top: inherit;
+    margin-bottom: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    font-size: x-small;
+}
+
+h4 {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    font-size: small;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+#sucursal-retiro {
+    margin-top: 13px;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+#fecha-retiro {
+    margin-top: 13px;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+#fecha-retiro {
+    margin-top: 13px;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+#seleccione-hora {
+    margin-top: 13px;
+    padding: 0px 10px;
+    height: 30px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 17.5px
+}
+
+#btn{
+    margin-bottom: -4px;
+    height: 30px;
+    background: red;
+    color: white;
+}
+
+.row{
+    padding: 20px 0px;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 961px) {
+    .formulario-checkin{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 450px;
+        background-color: rgb(37, 37, 37);
+        color: white;
+
+    }
+    .btn{
+        width: 100%;
+    }
+    #btn {
+        width: 100%;
+    }
+}
