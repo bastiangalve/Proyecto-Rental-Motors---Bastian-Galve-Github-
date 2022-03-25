@@ -1,0 +1,125 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(../IMG/Hero-Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: 0px -440px; }
+  
+  .contenedor-hero-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 70%;
+    margin-bottom: 140px;
+    height: 200px;
+    color: white;
+    font-size: large; }
+  
+  .reservar-anular {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    max-width: 70%;
+    height: 30px;
+    color: white;
+    font-size: x-small; }
+  
+  #RESERVAR {
+    display: flex;
+    text-align: center;
+    padding: 8px 35px;
+    background-color: red; }
+  
+  #ANULAR {
+    display: flex;
+    text-align: center;
+    padding: 8px 35px;
+    background-color: #252525; }
+  
+  .formulario-checkin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    max-width: 70%;
+    margin-bottom: 0px;
+    height: 120px;
+    padding: 0px 17.5px;
+    background-color: rgba(255, 255, 255, 0.712);
+    color: #252525;
+    font-size: small; }
+  
+  .col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 17.5px; }
+  
+  #sucursal-retiro {
+    margin-top: 13px;
+    height: 30px; }
+  
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 17.5px; }
+  
+  #fecha-retiro {
+    margin-top: 13px;
+    height: 30px; }
+  
+  .col-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 17.5px; }
+  
+  #seleccione-hora {
+    margin-top: 13px;
+    height: 30px; }
+  
+  .btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 17.5px; }
+  
+  #btn {
+    margin-bottom: 5px;
+    height: 30px;
+    background: red;
+    color: white; }
+  
+  .contenedor-texto-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 70%;
+    margin: auto;
+    height: 150px;
+    color: #252525;
+    font-size: medium; }
+  
+  .contenedor-valor-marca {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 70%;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    height: 200px;
+    color: #252525;
+    font-size: small; }

@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; }
+  
+  body {
+    position: relative;
+    padding-bottom: 200px;
+    min-height: 100vh; }
+
+    /* CORRECION BOOTSTRAP */
+  .col-1 {
+    flex: 0 0 auto;
+    width: 100%; }
+  
+  .col-2 {
+    flex: 0 0 auto;
+    width: 100%; }
+  
+  .col-3 {
+    flex: 0 0 auto;
+    width: 100%; }
+  
+  h1 {
+    font-weight: 600;
+    font-size: xx-large;
+    line-height: 1.2;
+    margin-bottom: 0rem; }
+  
+  h2 {
+    font-weight: 600;
+    font-size: x-large; }
+  
+  h3 {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    font-size: x-small; }
+  
+  h4 {
+    margin-top: inherit;
+    margin-bottom: inherit;
+    font-weight: 600;
+    line-height: inherit;
+    font-size: small; }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem; }
+
+      /*RESPONSIVE*/
+  @media (max-width: 961px) {
+    .formulario-checkin {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 450px;
+      background-color: #252525;
+      color: white; }
+    .btn {
+      width: 100%; }
+    #btn {
+      width: 100%; } }
