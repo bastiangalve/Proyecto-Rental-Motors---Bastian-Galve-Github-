@@ -1,12 +1,14 @@
 /*ESTILOS PAGINA VEHICULOS*/
 .banner {
     background: url(../IMG/Nuestra-Flota-ok.jpg) top/cover;
-    height: 500px; }
+    height: 500px; 
+  }
   
   /*RESPONSIVE .BANNER*/
   @media (max-width: 780px) {
     .banner {
-      display: none; } }
+      display: none; } 
+    }
   
   /*ESTILOS DEL CONTENEDOR PRINCIPAL QUE COMPARTE CADA PAGINA*/
   .titulo-principal {
@@ -14,8 +16,9 @@
     z-index: 2;
     bottom: 60px;
     left: 85px;
-    color: white;
-    font-size: 3em; }
+    color: $colortext2;
+    font-size: 3em; 
+  }
   
   div.row.principal {
     position: relative;
@@ -23,9 +26,10 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
     bottom: 150px;
-    background-color: rgba(0, 0, 0, 0.747);
+    background-color: $colorcontainer;
     padding: 120px 100px 90px;
-    color: white; }
+    color: white; 
+  }
   
   /*CONTENEDORES DE AUTOMOVILES*/
   .caja-economico {
@@ -34,8 +38,9 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 600px;
-    background-color: white;
-    padding: 0px 0px 0px 0px; }
+    background-color: $colorbg;
+    padding: 0px 0px 0px 0px; 
+  }
   
   .caja-sedan {
     display: flex;
@@ -43,8 +48,9 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 600px;
-    background-color: white;
-    padding: 0px; }
+    background-color: $colorbg;
+    padding: 0px; 
+  }
   
   .caja-suv {
     display: flex;
@@ -52,8 +58,9 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 600px;
-    background-color: white;
-    padding: 0px; }
+    background-color: $colorbg;
+    padding: 0px; 
+  }
   
   .caja-furgon {
     display: flex;
@@ -61,17 +68,20 @@
     justify-content: space-between;
     align-items: flex-start;
     height: 600px;
-    background-color: white;
-    padding: 0px; }
+    background-color: $colorbg;
+    padding: 0px; 
+  }
   
   .titulo-automovil {
     width: 100%;
-    background-color: red;
+    background-color: $coloracento;
     font-size: 1em;
-    padding: 10px; }
+    padding: 10px; 
+  }
   
   .descripcion-automovil {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.226);
-    color: black;
-    padding: 20px 40px; }
+    color: $colortext1;
+    padding: 20px 40px; 
+  }

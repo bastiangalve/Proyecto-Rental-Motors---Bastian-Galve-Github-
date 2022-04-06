@@ -1,5 +1,5 @@
 /* VARIABLES */
-/* VARIABLES */
+/* PALETA DE COLORES */
 /* GLOBALES */
 * {
   margin: 0px;
@@ -73,17 +73,15 @@ p {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: red;
+  background-color: #ff0000;
   padding: 3px; }
-
-.barra-superior a {
-  text-decoration: none;
-  color: white;
-  font-size: x-small; }
-
-.barra-superior li {
-  list-style-type: none;
-  padding: 0 20px; }
+  .barra-superior a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: x-small; }
+  .barra-superior li {
+    list-style-type: none;
+    padding: 0 20px; }
 
 /* NAVEGADOR */
 .contenedor-nav {
@@ -118,17 +116,16 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center; }
-
-.enlaces a {
-  padding: 16px 12px;
-  color: white;
-  text-decoration: none;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  font-size: small;
-  border-bottom: 6px solid transparent;
-  transition: border .3s ease; }
+  .enlaces a {
+    padding: 16px 12px;
+    color: #ffffff;
+    text-decoration: none;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    border-bottom: 6px solid transparent;
+    transition: border .3s ease; }
 
 /* LOGO MARCA */
 .logo img {
@@ -137,10 +134,10 @@ p {
   align-items: center; }
 
 header nav .enlaces a:hover {
-  border-bottom-color: red; }
+  border-bottom-color: #ff0000; }
 
 header nav .enlaces a.active {
-  border-bottom-color: red; }
+  border-bottom-color: #ff0000; }
 
 /* VISTA EN MOVILES DEL HEADER-BARRA-SUPERIOR */
 @media (max-width: 400px) {
@@ -149,7 +146,7 @@ header nav .enlaces a.active {
     flex-direction: column;
     justify-content: flex-start;
     text-align: start;
-    background-color: red;
+    background-color: #ff0000;
     padding: 3px; } }
 
 /* VISTA EN MOVILES DEL HEADER-NAV */
@@ -181,17 +178,17 @@ header nav .enlaces a.active {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch; }
-  .enlaces a {
-    padding: 16px 12px;
-    color: white;
-    text-decoration: none;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    font-size: small;
-    border-bottom: 6px solid transparent;
-    transition: border .3s ease; }
+    .enlaces a {
+      padding: 16px 12px;
+      color: #ffffff;
+      text-decoration: none;
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      font-size: small;
+      border-bottom: 6px solid transparent;
+      transition: border .3s ease; }
   /* LOGO MARCA */
   .logo img {
     width: 120px;
@@ -212,7 +209,7 @@ header nav .enlaces a.active {
   position: absolute;
   bottom: 0; }
 
-/* PARTIALS */
+/* views */
 .hero {
   display: flex;
   flex-direction: column;
@@ -235,7 +232,7 @@ header nav .enlaces a.active {
   max-width: 70%;
   margin-bottom: 140px;
   height: 200px;
-  color: white;
+  color: #ffffff;
   font-size: large; }
 
 .reservar-anular {
@@ -246,14 +243,14 @@ header nav .enlaces a.active {
   width: 70%;
   max-width: 70%;
   height: 30px;
-  color: white;
+  color: #ffffff;
   font-size: x-small; }
 
 #RESERVAR {
   display: flex;
   text-align: center;
   padding: 8px 35px;
-  background-color: red; }
+  background-color: #ff0000; }
 
 #ANULAR {
   display: flex;
@@ -313,7 +310,7 @@ header nav .enlaces a.active {
   margin-bottom: 5px;
   height: 30px;
   background: red;
-  color: white; }
+  color: #ffffff; }
 
 .contenedor-texto-principal {
   display: flex;
@@ -355,7 +352,7 @@ header nav .enlaces a.active {
   z-index: 2;
   bottom: 60px;
   left: 85px;
-  color: white;
+  color: #ffffff;
   font-size: 3em; }
 
 div.row.principal {
@@ -364,7 +361,7 @@ div.row.principal {
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
   bottom: 150px;
-  background-color: rgba(0, 0, 0, 0.747);
+  background-color: #000000b2;
   padding: 120px 100px 90px;
   color: white; }
 
@@ -375,7 +372,7 @@ div.row.principal {
   justify-content: space-between;
   align-items: flex-start;
   height: 600px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 0px 0px 0px 0px; }
 
 .caja-sedan {
@@ -384,7 +381,7 @@ div.row.principal {
   justify-content: space-between;
   align-items: flex-start;
   height: 600px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 0px; }
 
 .caja-suv {
@@ -393,7 +390,7 @@ div.row.principal {
   justify-content: space-between;
   align-items: flex-start;
   height: 600px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 0px; }
 
 .caja-furgon {
@@ -402,17 +399,21 @@ div.row.principal {
   justify-content: space-between;
   align-items: flex-start;
   height: 600px;
-  background-color: white;
+  background-color: #ffffff;
   padding: 0px; }
 
 .titulo-automovil {
   width: 100%;
-  background-color: red;
+  background-color: #ff0000;
   font-size: 1em;
   padding: 10px; }
 
 .descripcion-automovil {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.226);
-  color: black;
+  color: #252525;
   padding: 20px 40px; }
+
+.background-servicios {
+  background: url(/IMG/Servicios.jpg) center/cover;
+  height: 100vh; }

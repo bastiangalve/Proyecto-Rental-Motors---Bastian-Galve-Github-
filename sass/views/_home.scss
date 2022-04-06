@@ -9,7 +9,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    background-position: 0px -440px; }
+    background-position: 0px -440px; 
+  }
   
   .contenedor-hero-texto {
     display: flex;
@@ -20,8 +21,9 @@
     max-width: 70%;
     margin-bottom: 140px;
     height: 200px;
-    color: white;
-    font-size: large; }
+    color: $colortext2;
+    font-size: large; 
+  }
   
   .reservar-anular {
     display: flex;
@@ -31,20 +33,23 @@
     width: 70%;
     max-width: 70%;
     height: 30px;
-    color: white;
-    font-size: x-small; }
+    color: $colortext2;
+    font-size: x-small; 
+  }
   
   #RESERVAR {
     display: flex;
     text-align: center;
     padding: 8px 35px;
-    background-color: red; }
+    background-color: $coloracento; 
+  }
   
   #ANULAR {
     display: flex;
     text-align: center;
     padding: 8px 35px;
-    background-color: #252525; }
+    background-color: $colorbase; 
+  }
   
   .formulario-checkin {
     display: grid;
@@ -55,50 +60,59 @@
     height: 120px;
     padding: 0px 17.5px;
     background-color: rgba(255, 255, 255, 0.712);
-    color: #252525;
-    font-size: small; }
+    color: $colorbase;
+    font-size: small; 
+  }
   
   .col-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 15px 17.5px; }
+    padding: 15px 17.5px; 
+  }
   
   #sucursal-retiro {
     margin-top: 13px;
-    height: 30px; }
+    height: 30px; 
+  }
   
   .col-2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 15px 17.5px; }
+    padding: 15px 17.5px; 
+  }
   
   #fecha-retiro {
     margin-top: 13px;
-    height: 30px; }
+    height: 30px; 
+  }
   
   .col-3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 15px 17.5px; }
+    padding: 15px 17.5px; 
+  }
   
   #seleccione-hora {
     margin-top: 13px;
-    height: 30px; }
+    height: 30px; 
+  }
   
   .btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px 17.5px; }
+    padding: 15px 17.5px; 
+  }
   
   #btn {
     margin-bottom: 5px;
     height: 30px;
     background: red;
-    color: white; }
+    color: $colortext2; 
+  }
   
   .contenedor-texto-principal {
     display: flex;
@@ -110,7 +124,8 @@
     margin: auto;
     height: 150px;
     color: #252525;
-    font-size: medium; }
+    font-size: medium; 
+  }
   
   .contenedor-valor-marca {
     display: flex;
@@ -122,4 +137,5 @@
     margin-top: 40px;
     height: 200px;
     color: #252525;
-    font-size: small; }
+    font-size: small; 
+  }
